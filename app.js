@@ -1,8 +1,8 @@
 // Kesäviikkojen tiedot + linkit viikkosivuille
 const weekData = {
   1: { 
-    title: "-", 
-    text: "-", 
+    title: "Retki Mustikkamaalle", 
+    text: ".", 
     link: "viikko1.html" 
   },
 
@@ -37,13 +37,13 @@ const weekData = {
   },
 
   7: { 
-    title: "-", 
+    title: "Seinäkiipeilyä", 
     text: "-", 
     link: "viikko7.html" 
   },
 
   8: { 
-    title: "-", 
+    title: "Korkeasaaren eläintarha", 
     text: "-", 
     link: "viikko8.html" 
   },
@@ -61,19 +61,19 @@ const weekData = {
   },
 
   11: { 
-    title: "-", 
-    text: "K-", 
+    title: "Ranta päivä", 
+    text: "-", 
     link: "viikko11.html" 
   },
 
   12: { 
-    title: "-", 
+    title: "Kumpulan maauimailman", 
     text: "-", 
     link: "viikko12.html" 
   },
 
   13: { 
-    title: "-", 
+    title: "Linnanmäki", 
     text: "-", 
     link: "viikko13.html" 
   }
@@ -89,7 +89,7 @@ for (let i = 1; i <= 13; i++) {
   const door = document.createElement("div");
   door.classList.add("door");
   door.dataset.week = i;
-  door.textContent = `Vko ${i}`;
+  door.textContent = `Viikko ${i}`;
 
   // Lukitse tulevat viikot
   if (i > currentWeek) {
