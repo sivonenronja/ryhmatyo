@@ -18,7 +18,7 @@ const weekData = {
 // const startOfYear = new Date(now.getFullYear(), 0, 1);
 // const weekNumber = Math.ceil(((now - startOfYear) / 86400000 + startOfYear.getDay() + 1) / 7);
 // const currentWeek = weekNumber; 
-const currentWeek = 21;
+const currentWeek = 25;
 
 const grid = document.getElementById("grid");
 const overlay = document.getElementById("overlay");
